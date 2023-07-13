@@ -1,0 +1,194 @@
+
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+#title, #cta {
+   background: #ff4c68;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+
+h1 {
+   font-family: 'Montserrat';
+   font-weight: 900;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+h2 {
+   font-family: 'Montserrat';
+   font-weight: bold;
+   font-size: 3rem;
+   line-height: 4rem;
+}
+
+h3 {
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: semi-bold;
+   line-height: 2rem;
+}
+
+.container-fluid {
+   padding: 3% 15% 7%;
+}
+
+.button-download  {
+   margin: 5% 3% 5% 0;
+}
+
+/*Navigation Bar*/
+
+/* Buttons */
+.navbar {
+   padding-bottom: 4rem;
+}
+
+.nav-item {
+   padding: 0 18px;
+}
+
+.nav-link {   
+   font-size: 1.2rem;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: lighter;
+}
+
+.navbar-brand {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2.5rem;
+   font-weight: semi-bold;
+   
+}
+
+/* Title-image */
+.iphone-mockup {
+   width: 60%;
+   transform: rotate(25deg);
+   /*position: absolute;*/
+   position: relative;
+   left: 15%;
+   top: 35%;
+}
+
+/* FEATURES */
+#features {
+   padding: 7% 15%;
+   background-color: white;
+   position: relative;
+}
+
+.features-item {
+   margin: 1rem auto;
+   text-align: center;
+   transform: scale(2);
+   color: #ff9494;
+}
+
+.features-item:hover {
+   color: #ff4c68;
+}
+
+p {
+   color: #8f8f8f;
+   text-align: center;
+}
+
+/* Testimonials */
+#testimonials {
+   background-color: #ff9494;
+   text-align: center;
+   color: white;
+}
+
+.testimonials-image {
+   border-radius: 50%;
+   width: 10%;
+   margin: 20px;
+}
+
+.carousel-item {
+   padding: 7% 15%;
+}
+
+/* PRESS */
+#press {
+   background-color: #ff9494;
+   text-align: center;
+   padding-bottom: 3%;
+}
+
+.press-logo {
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+
+/* Pricining           */
+
+#pricing {
+   padding: 100px;
+   text-align: center;
+}
+
+.pricing-column {
+   padding: 3% 2%;
+}
+
+/* MEDIA's */
+@media (max-width: 993px) {
+   .iphone-mockup {
+      position: stitic;
+      position: relative;
+      left: 0;
+      top: 0;
+      transform: rotate(0);
+   }
+}
+
+@media (min-width: 1316px) {
+   .iphone-mockup {
+      left: 0;
+      top: 17%;
+   }
+}
+
+@media (max-width: 2140px) {
+   #title {
+      text-align: center;
+   }
+}
+
+/*Call to Action & Footer*/
+#cta {
+   padding: 7% 15%;
+}
+
+.cta-h3 {
+   font-weight: 900;
+   padding: 3% 4%;
+   line-height: 2.5rem;
+   font-size: 2rem;
+}
+
+.buttons-footer {
+   text-align: center;
+   padding: 1% 0 0;
+}
+
+.footer-images {
+   text-align: center;
+   padding: 1% 1%;
+}
+
+.footer-image {
+   color: black;
+   margin: 1%;
+}
+
+.button-footer {
+   margin-right: 0.4rem;
+}
+
+#footer {
+   padding: 7% 15%;
+}
