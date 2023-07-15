@@ -4,246 +4,217 @@
 }
 
 body {
-   margin: 0;
-   text-align: center;
-   font-family: 'Merriweather', serif;
-   background-color: rgb(245, 245, 245);
-   color: rgb(63, 35, 5);
+   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-   font-family: 'Montserrat';
-   background-color: #113d23a0;
-   font-size: 1.2rem;
-   font-weight: semi-bold;
+#title{
+   background: #ff4c68;
+   font-family: 'Montserrat', sans-serif;
    color: white;
 }
 
-.navbar-brand {
-   padding-left: 1%;
-}
-
-.nav-item {
-   padding-left: 1.3rem;
-}
-
-.top-container {
-   padding-top: 70px;
-   padding-bottom: 20px;
-   background-color: rgb(242, 234, 211);
+.common-padding {
+   padding: 7% 15%;
 }
 
 h1 {
-   margin: 0 auto;
-   font-family: 'Sacramento';
-   font-size: 5.525rem;
-   font-weight: bold;
-   margin: 3.125rem auto 0 auto;
-   color: rgb(63, 35, 5);
-   }
-
+   font-weight: 900;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
 h2 {
-   font-family: 'Montserrat';
-   font-size: 1.8rem;
-   font-weight: semi-bold;
-   margin-top: -30px;
-   padding-top: 20px;
-   color: rgb(63, 35, 5);
-   text-align: center;
-}
-
-h2.skills {
-   padding-bottom: 3%;
-   font-weight: 500;
-   font-size: 2.3rem;
-}
-
-h3 p {
-   font-family: 'Montserrat', sans-serif;
-   font-weight: normal;
-   margin-top: -30px;
-   padding-top: 20px;
-   color: rgb(63, 35, 5);
-   text-align: left;
-   font-size: 1rem;
-   line-height: 1rem;
-}
-
-a {
-   color: rgb(63, 35, 5);
-   font-family: 'Montserrat', sans-serif;
-   text-decoration: none;
-}
-
-a:hover {
-   color: white;
-}
-
-hr {
-   border: dotted rgb(63, 35, 5) 3px;
-   margin-bottom: 4%;
-   width: 5%;
-   border-bottom: none;
-   margin-left: 50%;
-}
-
-.premiddle-img {
-   margin-bottom: 40px;
-   border-radius: 10%;
-}
-
-.premiddle-container {
-   background-color: white;
-   padding-bottom: 2%;
-}
-
-.middle-container {
-   margin: 0 auto;
-   padding-top: 50px;
-   background-color: rgb(242, 234, 211);
-   max-width: 1400px;
-   }
-
-.profile-img {
-   border-radius: 50%;
-   width: 200px;
-}
-
-/* SKILLS & Experience*/
-
-#skills-innerlink {
-   margin-top: 2rem;
-}
-
-.row-skills {
-   padding-bottom: 3rem;
-}
-
-.skills {
-   padding-bottom: 3%;
-   font-weight: 500;
-   font-size: 2.3rem;
-   font-family: 'Montserrat', sans-serif;
-}
-
-.recent-exp {
-   text-align: left;
-   font-size: 1.2rem;
-   font-family: 'Montserrat', sans-serif;
-   position: relative;
-   width: 80%;
-}
-
-.image-skill, .soft-skill-img {
-   color: rgba(93, 137, 49, 0.481);
-}
-
-.image-skill:hover, .soft-skill-img:hover {
-   color: #113d23a0;
-}
-
-/*Past working experience*/
-
-.lawyer-box {
-   text-align: left;
-   font-size: 1.2rem;
-   font-family: 'Montserrat', sans-serif;
-   position: relative;
-   right: 3%;
-   width: 75%;
-   max-width: 1400px;
-}
-
-.lawyer-img {
-   margin: 3% 50% 3% 24%;
-}
-
-/* Soft-hard skills */
-.hard-skills-box {
-   text-align: left;
-   font-size: 1.2rem;
-   font-family: 'Montserrat', sans-serif;
-   position: relative;
-   bottom: 35px;
-   margin-top: 30px;
-}
-
-.soft-img {
-   width: 5%;
-}
-
-.soft-hardskills {
-   width: 90%;
-   margin: 0 auto;
-   padding-bottom: -43rem;
-}
-
-.description-skill {
-text-align: left;
-font-size: 1.2rem;
-font-family: 'Montserrat', sans-serif;
-position: relative;
-right: 1rem;
-bottom: 35px;
-margin-top: 30px;
-}
-
-.soft-skill-img {
-   width: 2%;
-   position: relative;
-   right: 2rem;
-}
-
-/*hobbies*/
-.hobbies {
-   width: 80%;
-   margin: 0 auto;
-   padding-bottom: 3rem;
-}
-
-/* Contacts */
-.contacts-box {
-   width: 60%;
-   margin: 0 auto;
-   max-width: 900px;
-   font-family: 'Montserrat', sans-serif;
-}
-
-.contact-img {
-   display: inline-block;
-   position: relative;
-   bottom: 12px;
-}
-
-.envelope-img, .linkedin-img {
-   color: #113d234d;
-}
-
-.envelope-img:hover, .linkedin-img:hover {
-   color:  #113d23a0;
-}
-
-.contact-me {
-   margin: 2rem 0;
-   text-align: center;
-   font-family: 'Montserrat', sans-serif;
-   color: rgb(63, 35, 5);
-}
-
- .contact-link {
-   font-family: 'Merriweather', serif;
-   font-size: 1.2rem;
    font-weight: bold;
-   margin-top: -30px;
-   padding-top: 20px;
-   background-color: #113d23a0;
+   font-size: 3rem;
+   line-height: 4rem;
+}
+
+h3 {
+   text-align: center;
+   font-weight: semi-bold;
+   line-height: 2rem;
+}
+
+.container-fluid {
+   padding: 3% 10% 7%;
+}
+
+.button-download  {
+   margin: 5% 3% 5% 0;
+}
+
+/*Navigation Bar*/
+/* Buttons */
+.navbar {
+   padding-bottom: 4rem;
+}
+
+.nav-item {
+   padding: 0 18px;
+}
+
+.nav-link {   
+   font-size: 1.2rem;
+   font-weight: lighter;
+}
+
+.navbar-brand {
+   font-size: 2.5rem;
+   font-weight: semi-bold;
+}
+
+.title1{ 
+   padding-left: 5px;
+
+}
+
+/* Title-image */
+.iphone-mockup {
+   width: 60%;
+   transform: rotate(25deg);
+   position: relative;
+   left: 15%;
+   top: 35%;
+}
+
+
+/* FEATURES */
+#features {
+   background-color: white;
+   position: relative;
+}
+
+.features-item {
+   margin: 1rem auto;
+   text-align: center;
+   transform: scale(2);
+   color: #ff9494;
+}
+
+.features-item:hover {
+   color: #ff4c68;
+}
+
+p {
+   color: #8f8f8f;
    text-align: center;
 }
 
-.bottom-container {
-   background-color: #113d23a0;
-   padding: 20px 0 10px 10px;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 1rem;
+/* Testimonials */
+#testimonials {
+   background-color: #ff9494;
+   text-align: center;
    color: white;
+}
+
+.testimonials-image {
+   border-radius: 50%;
+   width: 10%;
+   margin: 20px;
+}
+
+/* PRESS */
+#press {
+   background-color: #ff9494;
+   text-align: center;
+   padding-bottom: 3%;
+}
+
+.press-logo {
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+
+/* Pricining*/
+#pricing {
+   padding: 100px;
+   text-align: center;
+}
+
+.pricing-column {
+   padding: 3% 2%;
+}
+
+/* MEDIA's */
+@media (max-width: 993px) {
+   .iphone-mockup {
+      position: stitic;
+      position: relative;
+      left: 0;
+      top: 0;
+      transform: rotate(0);
+   }
+}
+
+@media (min-width: 1316px) {
+   .iphone-mockup {
+      left: 0;
+      top: 17%;
+   }
+}
+
+@media (max-width: 2140px) {
+   #title {
+      text-align: center;
+   }
+}
+
+@media (max-width: 750px) {
+   h1 {
+      font-size: 2rem;
+   }
+   #testimonials h2, #pricing h2, #cta h3 {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      font-weight: 500;
+   }
+   .press-logo {
+      width: 30%;
+      margin: 10px 10px 30px;
+   }
+   #pricing {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+   .card-body p {
+      line-height: 1rem;
+      font-size: 1rem;
+   }
+}
+
+/*Call to Action & Footer*/
+
+ #cta {
+   padding: 7% 15%;   
+   background: #ff4c68;
+   color: white;
+} 
+
+.cta-h3 {
+   font-weight: 900;
+   padding: 3% 4%;
+   line-height: 2.5rem;
+   font-size: 2rem;
+}
+
+.buttons-footer {
+   text-align: center;
+   padding: 1% 0 0;
+}
+
+#footer {
+      padding: 7% 15%;
+}
+
+.footer-images {
+   text-align: center;
+   padding: 1% 1%;
+}
+
+.footer-image {
+   color: black;
+   margin: 1%;
+}
+
+.button-footer {
+   margin-right: 0.4rem;
 }
